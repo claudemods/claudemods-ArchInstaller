@@ -1,6 +1,6 @@
-![Screenshot_20241219_114819](https://github.com/user-attachments/assets/ab0f48ed-1a15-4863-b2ee-0ef71d99582a)
 
-claudemods Arch Installer Tui Script and Qt6 Application
+
+claudemods Arch Installer Tui Script 
 
 this will only install the preconfigured user and its cloned data
 ext4 is currently only supported and this will setup with grub only
