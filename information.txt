@@ -1,0 +1,34 @@
+░█████╗░██╗░░░░░░█████╗░██╗░░░██╗██████╗░███████╗███╗░░░███╗░█████╗░██████╗░░██████╗
+██╔══██╗██║░░░░░██╔══██╗██║░░░██║██╔══██╗██╔════╝████╗░████║██╔══██╗██╔══██╗██╔════╝
+██║░░╚═╝██║░░░░░███████║██║░░░██║██║░░██║█████╗░░██╔████╔██║██║░░██║██║░░██║╚█████╗░
+██║░░██╗██║░░░░░██╔══██║██║░░░██║██║░░██║██╔══╝░░██║╚██╔╝██║██║░░██║██║░░██║░╚═══██╗
+╚█████╔╝███████╗██║░░██║╚██████╔╝██████╔╝███████╗██║░╚═╝░██║╚█████╔╝██████╔╝██████╔╝
+░╚════╝░╚══════╝╚═╝░░░░░░╚═════╝░╚═════╝░╚══════╝╚═╝░░░░░╚═╝░╚════╝░╚═════╝░╚═════╝░
+
+claudemods Arch Installer Script v1.02 19/12/2024
+
+
+to run the tui script as root with command sudo ./ArchGrubExt4.bin "yourdrive" script
+"yourdrive" should be entered as e.g /dev/sda or /dev/vda ect......
+
+
+
+
+
+This will setup your Drive As GPT ext4
+Drives Will Be sda1 for efi and sda2 for your linux system
+This will not setup a seperate swap
+
+installation takes around 5-6 minutes depending on squashfs size
+
+
+
+
+changelog v1.02 so far 19/12/2024
+new qt6 gui tested and works well every time
+completely rebuilt but works mostly the same
+removal of change hostname and user name i will be adding this back with fixes in a newer file
+new method to run the script  enter command sudo ./ArchGrubExt4.bin "yourdrive" script
+"yourdrive" should be entered as e.g /dev/sda or /dev/vda ect......
+new run additional scripts option added though there is no scripts just yet
+reboot option still remains
